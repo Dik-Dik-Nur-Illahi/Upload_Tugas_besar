@@ -1,7 +1,384 @@
+@font-face {
+    font-family: "Staatliches";
+    src: url('../assets/font/Staatliches/Staatliches-Regular.ttf');
+}
+
+
+
 body {
     position: relative;
 }
 
 .home {
     padding: 70px 0 30px 0;
+}
+
+
+.logo img {
+    width: 100px;
+}
+
+.jumbo {
+    background-image: url("../assets/img/jumbotron.jpg");
+    height: 700px;
+}
+
+.txt-jumbo {
+    padding: 200px 0 0 120px;
+    color: white;
+    font-family: "Staatliches";
+}
+
+.txt-jumbo h1 {
+    font-size: 120px;
+}
+
+.txt-jumbo p {
+    font-size: 40px;
+}
+
+.bg {
+    background-image: url("../assets/img/WR.jpg");
+    height: 700px;
+    background-repeat: no-repeat;
+    margin: 50px 0px 0 0px;
+}
+
+.game {
+    padding: 40px 30px 0 30px;
+}
+
+.txt-team h1 {
+    font-family: "Staatliches";
+    color: white;
+    font-size: 75px;
+    padding-top: 80px;
+}
+
+/* hover img */
+
+.cs {
+    background-image: url("../assets/img/cs.jpg");
+    height: 340px;
+    background-size: cover;
+    transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-trasition: all .5s ease;
+    -webkit-trasition: all .5s ease;
+    -ms-trasition: all .5s ease;
+    filter: Grayscale(100%);
+    -moz-filter: Grayscale(100%);
+    -o-filter: Grayscale(100%);
+    -webkit-filter: Grayscale(100%);
+    -ms-filter: Grayscale(100%);
+}
+
+.cs:hover {
+    box-shadow: 0 0 100px rgba(0, 0, 0, .5);
+    -moz-box-shadow: 0 0 100px rgba(0, 0, 0, .5);
+    -o-box-shadow: 0 0 100px rgba(0, 0, 0, .5);
+    -webkit-box-shadow: 0 0 100px rgba(0, 0, 0, .5);
+    -ms-box-shadow: 0 0 100px rgba(0, 0, 0, .5);
+    z-index: 1000;
+    transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    filter: Grayscale(0%);
+    -moz-filter: Grayscale(0%);
+    -o-filter: Grayscale(0%);
+    -webkit-filter: Grayscale(0%);
+    -ms-filter: Grayscale(0%);
+}
+
+.valo {
+    background-image: url("../assets/img/valo.jpg");
+    height: 340px;
+    background-size: cover;
+    transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-trasition: all .5s ease;
+    -webkit-trasition: all .5s ease;
+    -ms-trasition: all .5s ease;
+    filter: Grayscale(100%);
+    -moz-filter: Grayscale(100%);
+    -o-filter: Grayscale(100%);
+    -webkit-filter: Grayscale(100%);
+    -ms-filter: Grayscale(100%);
+}
+
+.valo:hover {
+    box-shadow: 0 0 100px rgba(0, 0, 0, .5);
+    -moz-box-shadow: 0 0 100px rgba(0, 0, 0, .5);
+    -o-box-shadow: 0 0 100px rgba(0, 0, 0, .5);
+    -webkit-box-shadow: 0 0 100px rgba(0, 0, 0, .5);
+    -ms-box-shadow: 0 0 100px rgba(0, 0, 0, .5);
+    z-index: 1000;
+    transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    filter: Grayscale(0%);
+    -moz-filter: Grayscale(0%);
+    -o-filter: Grayscale(0%);
+    -webkit-filter: Grayscale(0%);
+    -ms-filter: Grayscale(0%);
+}
+
+.pubg {
+    background-image: url("../assets/img/pubg.jpg");
+    height: 340px;
+    background-size: cover;
+    transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-trasition: all .5s ease;
+    -webkit-trasition: all .5s ease;
+    -ms-trasition: all .5s ease;
+    filter: Grayscale(100%);
+    -moz-filter: Grayscale(100%);
+    -o-filter: Grayscale(100%);
+    -webkit-filter: Grayscale(100%);
+    -ms-filter: Grayscale(100%);
+}
+
+.pubg:hover {
+    box-shadow: 0 0 100px rgba(0, 0, 0, .5);
+    -moz-box-shadow: 0 0 100px rgba(0, 0, 0, .5);
+    -o-box-shadow: 0 0 100px rgba(0, 0, 0, .5);
+    -webkit-box-shadow: 0 0 100px rgba(0, 0, 0, .5);
+    -ms-box-shadow: 0 0 100px rgba(0, 0, 0, .5);
+    z-index: 1000;
+    transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    filter: Grayscale(0%);
+    -moz-filter: Grayscale(0%);
+    -o-filter: Grayscale(0%);
+    -webkit-filter: Grayscale(0%);
+    -ms-filter: Grayscale(0%);
+}
+
+.ml {
+    background-image: url("../assets/img/ml.jpg");
+    height: 340px;
+    background-size: cover;
+    transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-trasition: all .5s ease;
+    -webkit-trasition: all .5s ease;
+    -ms-trasition: all .5s ease;
+    filter: Grayscale(100%);
+    -moz-filter: Grayscale(100%);
+    -o-filter: Grayscale(100%);
+    -webkit-filter: Grayscale(100%);
+    -ms-filter: Grayscale(100%);
+}
+
+.ml:hover {
+    box-shadow: 0 0 100px rgba(0, 0, 0, .5);
+    -moz-box-shadow: 0 0 100px rgba(0, 0, 0, .5);
+    -o-box-shadow: 0 0 100px rgba(0, 0, 0, .5);
+    -webkit-box-shadow: 0 0 100px rgba(0, 0, 0, .5);
+    -ms-box-shadow: 0 0 100px rgba(0, 0, 0, .5);
+    z-index: 1000;
+    transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    filter: Grayscale(0%);
+    -moz-filter: Grayscale(0%);
+    -o-filter: Grayscale(0%);
+    -webkit-filter: Grayscale(0%);
+    -ms-filter: Grayscale(0%);
+}
+
+/* HOVER logo */
+.cs img {
+    width: 100px;
+    margin-left: 140px;
+    transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-trasition: all .3s ease;
+    -webkit-trasition: all .3s ease;
+    -ms-trasition: all .3s ease;
+}
+
+.cs:hover img {
+    margin-top: -100px;
+}
+
+.valo img {
+    width: 200px;
+    margin-left: 80px;
+    transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-trasition: all .3s ease;
+    -webkit-trasition: all .3s ease;
+    -ms-trasition: all .3s ease;
+}
+
+.valo:hover img {
+    margin-top: -80px;
+}
+
+.pubg img {
+    width: 120px;
+    margin-left: 120px;
+    transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-trasition: all .3s ease;
+    -webkit-trasition: all .3s ease;
+    -ms-trasition: all .3s ease;
+}
+
+.pubg:hover img {
+    margin-top: -100px;
+}
+
+.ml img {
+    width: 200px;
+    margin-left: 70px;
+    transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-trasition: all .3s ease;
+    -webkit-trasition: all .3s ease;
+    -ms-trasition: all .3s ease;
+}
+
+.ml:hover img {
+    margin-top: -90px;
+}
+
+/* Hover txt */
+
+.cs p {
+    color: white;
+    opacity: 0;
+    font-size: 20px;
+    transition: all .1s ease;
+    -moz-transition: all .1s ease;
+    -o-trasition: all .1s ease;
+    -webkit-trasition: all .1s ease;
+    -ms-trasition: all .1s ease;
+}
+
+.cs:hover p {
+    padding-top: 20px;
+    opacity: 1;
+}
+
+.valo p {
+    color: white;
+    opacity: 0;
+    font-size: 20px;
+    transition: all .1s ease;
+    -moz-transition: all .1s ease;
+    -o-trasition: all .1s ease;
+    -webkit-trasition: all .1s ease;
+    -ms-trasition: all .1s ease;
+}
+
+.valo:hover p {
+    padding-top: 20px;
+    opacity: 1;
+}
+
+.pubg p {
+    color: white;
+    opacity: 0;
+    font-size: 20px;
+    transition: all .1s ease;
+    -moz-transition: all .1s ease;
+    -o-trasition: all .1s ease;
+    -webkit-trasition: all .1s ease;
+    -ms-trasition: all .1s ease;
+}
+
+.pubg:hover p {
+    padding-top: 20px;
+    opacity: 1;
+}
+
+.ml p {
+    color: white;
+    opacity: 0;
+    font-size: 20px;
+    transition: all .1s ease;
+    -moz-transition: all .1s ease;
+    -o-trasition: all .1s ease;
+    -webkit-trasition: all .1s ease;
+    -ms-trasition: all .1s ease;
+}
+
+.ml:hover p {
+    padding-top: 20px;
+    opacity: 1;
+}
+
+/* partner */
+
+.partner {
+    margin-top: 50px;
+}
+
+.txt-partner h1 {
+    font-family: "Staatliches";
+    font-size: 75px;
+}
+
+.partner2 {
+    margin-top: 50px;
+}
+
+
+.contact-img {
+    background-image: url("../assets/img/contact.png");
+    border-radius: 25px;
+    background-position: 0 25px;
+}
+
+.us h2 {
+    font-family: "Staatliches";
+    color: white;
+    font-size: 60px;
+    height: 120px;
+}
+
+form {
+    color: white;
+    margin-bottom: 50px;
+}
+
+footer {
+    margin-top: 50px;
+}
+
+
+.logo2 {
+    width: 100px;
+    margin: 25px 0 80px -50px;
+}
+
+.footer-txt {
+    position: absolute;
+    left: 720px;
+    bottom: 120px;
+    color: black;
+    font-family: "Staatliches";
+    font-size: 20px;
+}
+
+.ig {
+    position: absolute;
+    left: 702px;
+    bottom: 60px;
+}
+
+.copy {
+    opacity: 0.5;
 }
