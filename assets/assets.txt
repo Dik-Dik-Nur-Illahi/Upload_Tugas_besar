@@ -26,4 +26,5 @@ twitct = https://www.bing.com/images/search?view=detailV2&ccid=j3j7X9oK&id=B50A0
 
 valorant contact = https://www.bing.com/images/search?view=detailV2&ccid=q6YJmL4v&id=AD9E1A9C31CE7F8A4C7C3F09100B61A46C80C754&thid=OIP.q6YJmL4vSCURUCtWYU6sEgHaEK&mediaurl=https%3a%2f%2fwallpapercave.com%2fwp%2fwp6012327.png&exph=2160&expw=3840&q=valorant+wallpaper&simid=608021675780082948&ck=E207BE0997F7E3068A6950FBFBB8644F&selectedIndex=11&FORM=IRPRST&ajaxhist=0
 
+Instagram logo = https://www.bing.com/images/search?view=detailV2&ccid=fb0LUcIK&id=F6EF2BB5F6A6B539349C411643EDA7F56C99CD75&thid=OIP.fb0LUcIKaVkBqExMCDUA9gHaFj&mediaurl=http%3a%2f%2fsguru.org%2fwp-content%2fuploads%2f2018%2f01%2finstagram-logo-black-transparent.png&exph=1200&expw=1600&q=logo+instagram+black&simid=608045542807635327&ck=38636F85D4B8F55C36B1F4C8A719B8C9&selectedIndex=0&FORM=IRPRST&ajaxhist=0
 font = https://fonts.google.com/specimen/Staatliches
